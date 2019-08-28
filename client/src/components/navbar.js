@@ -8,7 +8,7 @@ const Headerbar = () => {
         <Navbar.Brand href="#home">Google Books</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto">
+            <Nav className="justify-content-end">
                 <Nav.Link href="#home">Search</Nav.Link>
                 <Nav.Link href="#link">Results</Nav.Link>
             </Nav>
