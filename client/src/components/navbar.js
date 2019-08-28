@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar'
 
 const Navbar = () => {
+    return(
     <Navbar bg="light" expand="lg">
         <Navbar.Brand href="#home">Google Books</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
@@ -12,6 +13,7 @@ const Navbar = () => {
             </Nav>
         </Navbar.Collapse>
     </Navbar>
+    )
 }
 
 export default Navbar;
