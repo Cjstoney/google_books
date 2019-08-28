@@ -16,3 +16,5 @@ const DisplayBoxReturned = () => {
         </Card>
     )
 }
+
+export default DisplayBoxReturned;
