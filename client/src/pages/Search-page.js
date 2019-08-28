@@ -11,4 +11,4 @@ const SearchPage = ()=>{
   );
 }
 
-export default App;
+export default SearchPage;

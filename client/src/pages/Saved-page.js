@@ -11,4 +11,4 @@ const SavedPage = () => {
   );
 }
 
-export default App;
+export default SavedPage;

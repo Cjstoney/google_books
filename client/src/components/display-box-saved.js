@@ -15,3 +15,5 @@ const DisplayBoxSaved = () => {
         </Card>
     )
 }
+
+export default DisplayBoxSaved;
