@@ -7,3 +7,5 @@ const SearchBar = () => {
         <Button variant="outline-success">Search for a book!</Button>
     </Form>
 }
+
+export default SearchBar;

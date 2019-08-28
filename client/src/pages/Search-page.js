@@ -1,10 +1,13 @@
 import React from 'react';
-import HeaderBar from './components/navbar'
+import PageTitle from '../components/page-title.js';
+
+
 
 const SearchPage = ()=>{
   return (
     <div className="App">
-      <HeaderBar />
+      <PageTitle />
+      
     
      
     </div>

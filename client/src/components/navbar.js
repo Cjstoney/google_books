@@ -1,5 +1,6 @@
 import React from 'react';
-import {Navbar, Nav} from 'react-bootstrap'
+import {Navbar, Nav} from 'react-bootstrap'; 
+
 
 
 const Headerbar = () => {
@@ -9,8 +10,8 @@ const Headerbar = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="justify-content-end">
-                <Nav.Link href="#home">Search</Nav.Link>
-                <Nav.Link href="#link">Results</Nav.Link>
+                <Nav.Link href="/">Search</Nav.Link>
+                <Nav.Link href="/pages/Saved-page">Saved</Nav.Link>
             </Nav>
         </Navbar.Collapse>
     </Navbar>
