@@ -12,7 +12,7 @@ function App() {
 
         <HeaderBar />
         <Route exact path='/' component={SearchPage} />
-        <Route path='/saved' component={SavedPage} />
+        <Route path='/pages/saved' component={SavedPage} />
 
 
       </div>

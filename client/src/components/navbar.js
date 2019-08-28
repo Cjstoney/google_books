@@ -11,7 +11,7 @@ const Headerbar = () => {
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="justify-content-end">
                 <Nav.Link href="/">Search</Nav.Link>
-                <Nav.Link href="/pages/Saved-page">Saved</Nav.Link>
+                <Nav.Link href="/pages/saved">Saved</Nav.Link>
             </Nav>
         </Navbar.Collapse>
     </Navbar>
