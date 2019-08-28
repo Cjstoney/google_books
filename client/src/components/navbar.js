@@ -1,7 +1,8 @@
 import React from 'react';
-import Navbar from 'react-bootstrap/Navbar'
+import {Navbar, Nav} from 'react-bootstrap'
 
-const Navbar = () => {
+
+const Headerbar = () => {
     return(
     <Navbar bg="light" expand="lg">
         <Navbar.Brand href="#home">Google Books</Navbar.Brand>
@@ -16,4 +17,4 @@ const Navbar = () => {
     )
 }
 
-export default Navbar;
+export default Headerbar;
