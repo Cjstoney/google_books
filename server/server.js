@@ -17,14 +17,25 @@ if (process.env.NODE_ENV === "production") {
 // /api/books/:id (delete) - Will be used to delete a book from the database by Mongo _id.
 // * (get) - Will load your single HTML page in client/build/index.html. Make sure you have this after all other routes are defined.
 
-get("/api/books", (req,res)=>{
+app.get("/api/books", (req,res)=>{
+  db.book.find({}, (error, found)=>{
+    if(error){
+      console.log(error)
+    }
+    else{
+      res.json(found);
+    }
+  })
 
 })
 
 
-post('api/books')
+app.post('api/books', (req,res)=>{
 
-delete('api/books')
+db.books.insert({req})
+
+})
+// delete('api/books')
 
 
 
