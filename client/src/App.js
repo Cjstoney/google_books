@@ -9,12 +9,9 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-
         <HeaderBar />
         <Route exact path='/' component={SearchPage} />
         <Route path='/pages/saved' component={SavedPage} />
-
-
       </div>
     </BrowserRouter>
   );

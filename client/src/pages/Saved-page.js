@@ -7,10 +7,6 @@ const SavedPage = () => {
     <div className="App">
       <h1>Saved</h1>
       <DisplayBoxSaved />
-
-      
-    
-     
     </div>
   );
 }

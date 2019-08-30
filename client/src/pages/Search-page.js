@@ -8,7 +8,11 @@ const SearchPage = ()=>{
   return (
     <div className="App">
       <h1> Search for a book here!</h1>
-      <SearchBar />
+      <SearchBar BookSearch={
+        ()=>{
+          
+        }
+      } />
       <DisplayBoxReturned />
     </div>
   );
